@@ -1,0 +1,643 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "como estas?",
+        "hay alguien alli?",
+        "buenas tardes",
+        "buenos dias"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por visitarme",
+        "Hola, ¿que puedo hacer por ti?",
+        "Hey, ¿como puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adios", "Adios, Ojala nos veamos pronto", "Hasta  luego"],
+      "responses": [
+        "Adios, visitame cuando gustes",
+        "Que tengas buenos dias, cuidate",
+        "hasta pronto, cuidate"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["Gracias por ayudarme", "Muchas gracias", "En serio te lo agradezco", "Me ayudaste mucho"],
+      "responses": ["Gracias por visitarme, ya me sentia solo!", "A tu servicio!", "Fue un placer", "Ntp, para eso estamos"]
+    },
+    {
+      "tag": "apatia",
+      "patterns": [
+        "nada me emociona",
+        "nada me llama la atencion",
+        "no hay nada que quiera hacer",
+        "no tengo animos"
+      ],
+      "responses": [
+        "entiendo, tal vez puedas descubrir algo que te guste",
+        "uhm quiza puedas explorar hacer nuevas cosas ",
+        "hay un mundo de posibilidades, se que si exploras un poco puedes encontrar algo interesante para ti"
+      ]
+    },
+    {
+      "tag": "medicacion",
+      "patterns": [
+        "estoy medicado pero no mejore",
+        "me recetaron pero no siento que me ayuda",
+        "tomo medicamentos pero aun asi siento lo mismo",
+        "realmente los medicamentos ayudan?"
+      ],
+      "responses": [
+        "son un apoyo pero debes seguir un tratamiento",
+        "ayudan pero aun asi debes seguir un tratamiento",
+        "es parte de la solución",
+        "solo son un apoyo"
+      ]
+    },
+    {
+      "tag": "desamor",
+      "patterns": [
+        "realmente nunca me amo",
+        "no me queria como yo a ella",
+        "era incapaz de sentir algo por mi",
+        "lo di todo por ella"
+      ],
+      "responses": [
+        "el amor es un sentimiento muy fuerte que muy pocos conocemos",
+        "todos quieren a su modo, tal vez solo no supo expresarlo",
+        "debes aprender a amar como la gente ama a los gatos, sin esperar nada de ellos"
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "¿Como puedes ayudarme?",
+        "¿De que me sirves?",
+        "Necesito  ayuda",
+        "Ayudame por favor"
+      ],
+      "responses": [
+        "Si me permites puedo leerte y dirigirte con un especialista",
+        "Puedo ayudarte realizandote una pequeña prueba psicológica ",
+        "Si me cuentas un poco de ti, puedo ayudarte"
+      ]
+    },
+    {
+      "tag": "agotamiento",
+      "patterns": [
+        "estoy agotado",
+        "ya no puedo mas",
+        "estoy tan cansado",
+        "ya no aguanto, solo quiero desaparecer"
+      ],
+      "responses": [
+        "agotarse es de humanos, pero puede ayudarte respirar un poco",
+        "esta bien cansarse, tal vez deberias tomarte un tiempo",
+        "tranquilo esta bien, solo trata de tomarte un tiempo para respirar"
+      ]
+    },
+    {
+      "tag": "soledad",
+      "patterns": [
+        "nunca hay nadie",
+        "estoy solo",
+        "nadie me apoya",
+        "ya me acostumbre a no tener a nadie"
+      ],
+      "responses": [
+        "Somos nuestro mejor apoyo, pero si necesitas puedo escucharte",
+        "Estar solo algunas veces nos ayuda a descubrir quienes somos ",
+        "la soledad no siempre es mala, algunas veces es necesaria"
+      ]
+    },
+    {
+      "tag": "afecto",
+      "patterns": [
+        "jamas recibi un abrazo",
+        "eran muy frios",
+        "pareciera que no tiene sentimientos",
+        "es tan seco"
+      ],
+      "responses": [
+        "algunas personas tiene dificultades para demostrar afecto",
+        "si tuviera brazos yo te daria un abrazo muy grande",
+        "su corazon era mas helado que el artico"
+      ]
+    },
+    {
+      "tag": "ansiedad",
+      "patterns": [
+        "siento que no podre",
+        "voy a fallar",
+        "siento que esto me consume"
+      ],
+      "responses": [
+        "trata de no pensar en ello",
+        "intenta distraer tu mente, haz algo que te guste",
+        "a mi me sirve caminar, podrias intentarlo"
+      ]
+    },
+    {
+      "tag": "adiccion",
+      "patterns": [
+        "soy adicto",
+        "consumo frecuente",
+        "no he podido parar",
+        "aguantar la tentación es dificil"
+      ],
+      "responses": [
+        "se que es dificil pero yo se que tu puedes, no te rindas",
+        "es una guerra para valientes, y tu eres uno de ellos ",
+        "tienes que ser fuerte, cuanto mas puedas"
+      ]
+    },
+    {
+      "tag": "agresividad",
+      "patterns": [
+        "me volvi muy agresivo",
+        "no me controlo",
+        "quiero destruir todo",
+        "me gana la colera"
+      ],
+      "responses": [
+        "debes fortalecer tu caracter, no puedes permitir alterarte",
+        "no ganas nada con ello, se que es dificil pero tienes que aprender a controlarte",
+        "tal vez sea necesario que practique algun deporte que te ayude con ello como el yoga"
+      ]
+    },
+    {
+      "tag": "altruismo",
+      "patterns": [
+        "me gusta que esten comodos conmido",
+        "me gusta servir",
+        "pienso primero en los demas",
+        "altruista"
+      ],
+      "responses": [
+        "pensar en el bienestar de los demas esta bien, solo no olvides pensar en ti tambien",
+        "es bueno servir al projimo, solo no te olvides de ti  ",
+        "ayudar a los demas siempre es bueno, pero tambien debes enfocarte en ti"
+      ]
+    },
+    {
+      "tag": "alucinacion",
+      "patterns": [
+        "comence a alucinar",
+        "lejos de la realidad",
+        "veia escenarios inexistentes",
+        "salir de la realidad"
+      ],
+      "responses": [
+        "la realidad puede ser cruel, pero debemos afrontarla",
+        "escapar nunca es una buena solución",
+        "distraerte puede ayudar pero recuerda que hay un mundo afuera por vivir"
+      ]
+    },
+    {
+      "tag": "aprendizaje",
+      "patterns": [
+        "aprendo de lo que vivo",
+        "vivi tantas cosas",
+        "ha pasado bastante",
+        "la vida me golpea"
+      ],
+      "responses": [
+        "la vida nos enseña con las experiencias, algunas veces es la forma mas eficiente",
+        "todo en la vida es enseñanzas, debes procurar verlo de ese modo",
+        "de las experiencias aprendemos, algunas veces debemos pasar por lo mismo varias veces hasta aprender"
+      ]
+    },
+    {
+      "tag": "envidia",
+      "patterns": [
+        "tienen mas que yo",
+        "no se lo merecen",
+        "tambien quiero lo mismo",
+        "parece que son felices"
+      ],
+      "responses": [
+        "puedes conseguir lo que gustes a punto de esfuerzo, solo no te rindas",
+        "esfuerzate y puedes conseguir lo que te propongas",
+        "como decia rocky si sabes lo que vales, ve y consigue lo que mereces"
+      ]
+    },
+    {
+      "tag": "aspiracion",
+      "patterns": [
+        "quiero ser grande",
+        "quiero que me admiren",
+        "quiero que se asombren",
+        "me respeten"
+      ],
+      "responses": [
+        "con trabajo duro puedes llegar a conseguirlo",
+        "todo lo que quieres esta al otro lado del miedo ",
+        "trabaja en lo que quieres, y no te rindas hasta lograrlo",
+        "el trabajo duro vence al talento natural"
+      ]
+    },
+    {
+      "tag": "atencion",
+      "patterns": [
+        "no me escuchan",
+        "miran a lo demas menos a mi",
+        "falta de interes",
+        "le rogue atencion",
+        "falta de atencion"
+      ],
+      "responses": [
+        "muchos no entienden lo que tienen hasta que lo pierden",
+        "la atención es la caricia más hermosa",
+        "afortunadamente existe otro dia, otros sueños, otras risas, otras personas y otras cosas"
+      ]
+    },
+    {
+      "tag": "miedo",
+      "patterns": [
+        "le temo",
+        "me da mucho miedo",
+        "me asusta",
+        "fobia"
+      ],
+      "responses": [
+        "el miedo es algo natural, solo no dejes que te derrote",
+        "debemos afrontar nuestro miedos, es la unica forma de mejorar",
+        "la unica piedra que evita que te muevas a donde quieres es el miedo y debes vencerlo"
+      ]
+    },
+    {
+      "tag": "colera",
+      "patterns": [
+        "le tengo tanta rabia",
+        "tengo mucha colera",
+        "me da tanta rabia"
+      ],
+      "responses": [
+        "debes pensar y calmarte antes de expresar lo que sientes",
+        "algunas veces es necesario tomarse un tiempo para respirar",
+        "tomate un pequeño receso"
+      ]
+    },
+    {
+      "tag": "inferioridad",
+      "patterns": [
+        "siempre me superan",
+        "no soy bueno",
+        "no sirvo",
+        "soy inutil"
+      ],
+      "responses": [
+        "el primer paso para realizar algo es creer que puedes hacerlo, empieza por ello eres capaz",
+        "trabaja duro y superaras cualquier obstaculo",
+        "empeiza por confiar en que puedes lograrlo, luego trabaja duro"
+      ]
+    },
+    {
+      "tag": "anormal",
+      "patterns": [
+        "no encajo",
+        "soy raro",
+        "no soy igual que los demas",
+        "siento que no soy normal"
+      ],
+      "responses": [
+        "ser diferente no es malo, no dejes que te atormente ello",
+        "si todos fueramos iguales la vida seria mucho mas aburrida y caótica",
+        "no trates de encajar, solo se tu mismo"
+      ]
+    },
+    {
+      "tag": "culpa",
+      "patterns": [
+        "fue mi culpa",
+        "yo cause ello",
+        "por mi paso eso",
+        "a raiz de lo que hice"
+      ],
+      "responses": [
+        "debes dejar de enfocarte en lo que ya sucedio, mirar hacia delante",
+        "algunas veces tomamos malas decisiones, esta bien sentirte arrepentido por ello, pero no te atormentes",
+        "perdonarse a uno mismo es la aprte mas dificil"
+      ]
+    },
+    {
+      "tag": "desorientacion",
+      "patterns": [
+        "no se que hacer",
+        "no tengo idea de a donde ir",
+        "no me plantie nada",
+        "desconozco el camino que debos seguir"
+      ],
+      "responses": [
+        "esta bien tener dudas, con el tiempo encontraras una pasion no desesperes",
+        "piensa que es algo que quisieras hacer, y planea como podrias lograrlo e intentalo",
+        "podria ayudarte plantearte pequeñas metas de lo que te gusta hacer"
+      ]
+    },
+    {
+      "tag": "egoismo",
+      "patterns": [
+        "no me gusta compartir",
+        "es solo mio",
+        "son mis cosas",
+        "es solo para mi"
+      ],
+      "responses": [
+        "debes cambiar tu perspectiva, no solo existen tus verdades ni tus razones",
+        "Suena duro pero no eres el centro del universo ",
+        "debes aprender a ponerte en el lugar de los demas"
+      ]
+    },
+
+    {
+      "tag": "estres",
+      "patterns": [
+        "las tareas y el trabajo me agobia",
+        "mi relacion me estresa",
+        "me siento estresado",
+        "todo me molesta"
+      ],
+      "responses": [
+        "Hazte un espacio para respirar, y calmarte",
+        "hay veces uno debe darse un espacio para pensar",
+        "respirar y caminar ayuda bastante en estas situaciones"
+      ]
+    },
+
+    {
+      "tag": "habito",
+      "patterns": [
+        "me acostumbre a hacer ello",
+        "se me hizo costumbre",
+        "es muy cotidiano"
+      ],
+      "responses": [
+        "las rutinas hasta cierto punto son beneficiosas",
+        "si ello conlleva a mejorar como peronsa esta bien, si no deberias dejarlas",
+        "de vez en cuando es necesario dejarse llevar por la corriente"
+      ]
+    },
+    {
+      "tag": "idealismo",
+      "patterns": [
+        "lo idealice",
+        "me hice una idea equivocada",
+        "lo pinte como alguien que no era",
+        "solo construi un buen concepto de el"
+      ],
+      "responses": [
+        "Debes comenzar a ver el mundo como es, con el caos y orden que trae consigo",
+        "construir una idea de alguien en base a lo que añoramos es malo ",
+        "debes aceptar que las personas tienen virtudes y defectos, nadie es perfecto"
+      ]
+    },
+    {
+      "tag": "injusticia",
+      "patterns": [
+        "fue tan injusto",
+        "no lo merecia",
+        "injusticia",
+        "no recibio nada a cambio"
+      ],
+      "responses": [
+        "la vida puede ser dificil pero es quien nos moldea",
+        "algunas veces esto puede ser la motivación para mejorar el entorno que tenemos",
+        "Los golpes nos hacen fuertes, no hay nada mas perfecto que lo que se recupera luego del quiebre"
+      ]
+    },
+    {
+      "tag": "inestabilidad",
+      "patterns": [
+        "tengo cambios de humor",
+        "soy muy volatil",
+        "bipolar",
+        "soy muy sensible"
+      ],
+      "responses": [
+        "Sentir no es malo, solo procura que mantenerte estable",
+        "debes fortalecer tu caracter, esta bien sentir pero no puedes permitir que quebrarte tan rapido",
+        "el equilibro entre el sentimiento y la fortaleza debe mantenerse "
+      ]
+    },
+    {
+      "tag": "inmadurez",
+      "patterns": [
+        "No quiero nada",
+        "Soy inmaduro",
+        "Soy un niño",
+        "No quiero crecer"
+      ],
+      "responses": [
+        "Debes madurar",
+        "Debes crecer mentalmente",
+        "El tiempo te ayduara a crecer",
+        "Ser inmaduro no es malo, el tiempo te ayduara a crecer"
+      ]
+    },
+    {
+      "tag": "insomnio",
+      "patterns": [
+        "No puedo dormir",
+        "Me cuesta agarrar el sueño",
+        "No puedo dormir por las noches",
+        "Dormir no es lo mio"
+      ],
+      "responses": [
+        "Intenta hacer ejercicios horas antes de dormir",
+        "Apaga la pantalla dos horas antes de dormir",
+        "No tomes bebidas ni cafe antes de dormir",
+        "Relajate antes de dormir"
+      ]
+    },
+    {
+      "tag": "locura",
+      "patterns": [
+        "Oigo voces en mi cabeza",
+        "Estoy loco",
+        "Pienso cosas raras",
+        "Me considero loco"
+      ],
+      "responses": [
+        "Eso no es nomal",
+        "Debes conseguir ayuda",
+        "No estas loco, solicita ayuda",
+        "Pide ayuda eso no te vuelve loco ni más loco",
+        "Debes hablar de esto con un psicologo"
+      ]
+    },
+
+    {
+      "tag": "masoquismo",
+      "patterns": [
+        "Me gusta el dorlor",
+        "Me gusta dañarme",
+        "Quiero sentir dolor",
+        "Quiero que me peguen"
+      ],
+      "responses": [
+        "Eso no es nomal",
+        "Debes conseguir ayuda",
+        "Debes hablar de esto con un psicologo"
+      ]
+    },
+
+    {
+      "tag": "nostalgia",
+      "patterns": [
+        "Me cuesta olvidar",
+        "Extraño esos momentos",
+        "No se como dejar de pensar",
+        "No quiero olvidar"
+      ],
+      "responses": [
+        "Debes procesar lo que paso",
+        "No dejes que esas cosas te afecten",
+        "Debes ver lo que paso como el pasado"
+      ]
+    },
+
+    
+    {
+      "tag": "obsesion",
+      "patterns": [
+        "Esta en mi cabeza",
+        "Quisiera verla a cada segundo",
+        "No dejo de pensar en ella",
+        "Solo pienso en ella",
+        "No quiero que este con nadie",
+        "Estoy obsecionado"
+      ],
+      "responses": [
+        "Estas equivocado con tus sentimientos",
+        "Nesecitas ayuda",
+        "Deja de pensar en eso o ella",
+        "Despeja tu mente con otras cosas"
+      ]
+    },
+
+    {
+      "tag": "rencor",
+      "patterns": [
+        "Lo odio",
+        "Quiero vengarme",
+        "No lo quiero ni ver",
+        "Me gustaria verlo Muerto"
+      ],
+      "responses": [
+        "Debes dejar las cosas en el pasado",
+        "Aprende a perdonar",
+        "Deberiaas hablar con esa persona"
+      ]
+    },
+    {
+      "tag": "sadismo",
+      "patterns": [
+        "Quiero dañarlo",
+        "Me gustaria que sufra",
+        "Quiero hacerle sufrir",
+        "Quiero darle dolor"
+      ],
+      "responses": [
+        "Eso no es nomal",
+        "Debes conseguir ayuda",
+        "Debes hablar de esto con un psicologo"
+      ]
+    },
+
+    {
+      "tag": "suicidio",
+      "patterns": [
+        "Me quiero morir",
+        "Me voy a suicidar",
+        "Quiero quitarme la vida",
+        "Me cortare las venas",
+        "Voy a ahorcarme",
+        "Me lanzare de un puente"
+      ],
+      "responses": [
+        "Pide ayuda hoy",
+        "Línea 113 Salud y recibe ayuda",
+        "No cometas ese error",
+        "No te quedes solo y comunica como te sientes"
+      ]
+    },
+
+    {
+      "tag": "timidez",
+      "patterns": [
+        "¿Como puedo hablar con otros?",
+        "Me alejo de la gente",
+        "Me cuesta hablar",
+        "No me gusta comunicarme",
+        "Tengo pocos amigos"
+      ],
+      "responses": [
+        "Yo se que eres especial, demuestra como eres",
+        "Intenta expresar tus sentimiento con alguien",
+        "Cuentame que mas pasa",
+        "Deberias hablar lo que sientes con alguien"
+      ]
+    },
+
+    {
+      "tag": "trauma",
+      "patterns": [
+        "Me duele el pasado",
+        "Pienso en el pasado",
+        "No me gusta recordar",
+        "Tengo heridas abiertas",
+        "Tengo traumas",
+        "Me cuesta dormir",
+        "No me gusta recordar",
+        "Que dificil es recordad"
+      ],
+      "responses": [
+        "Debes encontra ayuda profcional.",
+        "Tienes que dejar las cosas del pasado.",
+        "Debes dejar procesar tus sentimientos."
+      ]
+    },
+
+    {
+      "tag": "compulsion",
+      "patterns": [
+        "Quiero hacerme daño",
+        "Quiero dañarme",
+        "Me quiero dañar",
+        "Me quiero dañar"
+      ],
+      "responses": [
+        "No tu vales mucho",
+        "Ese no es el camino",
+        "Debes calmarte en tu forma de pensar"
+      ]
+    },
+    {
+      "tag": "empatia",
+      "patterns": [
+        "Dificil es vivir",
+        "Acaso era tan dificil pensar en mi?",
+        "Nadie me quiere",
+        "Siento que no valgo la pena",
+        "Duele ser quien soy",
+        "Ya no aguanto",
+        "Estoy cansado",
+        "Me duele todo"
+      ],
+      "responses": [
+        "Debes calmarte y pensar las cosas.",
+        "No estas solo siempre hay alguien.",
+        "Las cosas van a cambiar.",
+        "Toma con calma las cosas que te quieren.",
+        "Para todo hay solución.",
+        "Siempre hay alguien que te quiere."
+      ]
+    }
+  ]
+}
